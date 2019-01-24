@@ -13,7 +13,7 @@ your_correlation_matrix_file must be a file containing a squared correlation mat
 
 ### Requirements
 1. Download navigome_independent_tests.py and run_independent.py and put them in the same directory
-2. Import sklearn and numpy:
+2. If not already done, install sklearn and numpy:
 ```
 pip install sklearn
 pip install numpy
