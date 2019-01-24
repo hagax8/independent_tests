@@ -3,6 +3,8 @@ Some scripts to compute the number of independent tests.
 
 ## 1. Compute the number of independent tests from a correlation matrix using PCA
 
+This defines N, the internal dimension of the kernel (correlation matrix), as the number of principal components accounting for 99.5% of the variance explained. The number of individual tests T is then (N*N-N)/2, and the Bonferroni cut-off 0.05/T.
+
 ### Run script
 ```
 python run_independent.py your_correlation_matrix_file
