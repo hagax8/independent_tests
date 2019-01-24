@@ -9,8 +9,8 @@ This defines N, the internal dimension of the kernel (correlation matrix), as th
 1. Download navigome_independent_tests.py and run_independent.py and put them in the same directory
 2. If not already done, install sklearn and numpy (scikit-learn has to be at least v0.20)
 ```
-pip install scikit-learn==0.20
 pip install numpy
+pip install scikit-learn==0.20
 ```
 
 ### Run script
