@@ -17,5 +17,11 @@ pip install sklearn
 pip install numpy
 ```
 
+### Example output
+Internal dimension of kernel matrix (N): 161
+Number of individual tests ((N*N-N)/2): 12880
+Bonferroni cut-off: 3.88e-06
+
+
 
 
